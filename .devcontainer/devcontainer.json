@@ -19,7 +19,7 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "README.md"
+        "COPYCAT.md"
       ],
       "repositories": {
         "<USERNAME>/<USERNAME>.github.io": {
@@ -33,12 +33,5 @@
         "mhutchie.git-graph"
       ]
     }
-  },
-  "portsAttributes": {
-    "1313": {
-      "label": "TestInLocal",
-      "onAutoForward": "openPreview"
-    }
-  },
-  "forwardPorts": [1313]
+  }
 }
