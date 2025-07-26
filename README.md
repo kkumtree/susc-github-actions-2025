@@ -1,4 +1,4 @@
-# 시작하세요! 블로그 제작을 통한 GitHub Actions 첫 걸음  
+# GitHub Actions으로 나만의 블로그 만들기    
 
 ## 강의 진행자  
 
