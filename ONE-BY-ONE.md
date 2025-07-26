@@ -21,7 +21,7 @@
 ## 적절한 실습 환경 대기  
 
 ```bash
-/workspaces/susc-github-actions-2025 (playground) $ hugo version
+/workspaces/susc-github-actions-2025 (hands-on) $ hugo version
 hugo v0.139.3-2f6864387cd31b975914e8373d4bf38bddbd47bc+extended linux/amd64 BuildDate=2024-11-29T15:36:56Z VendorInfo=gohugoio
 ```
 
@@ -37,9 +37,9 @@ hugo v0.139.3-2f6864387cd31b975914e8373d4bf38bddbd47bc+extended linux/amd64 Buil
 git remote
 # origin
 # upstream
-git checkout playground
-# Already on 'playground'
-# Your branch is up to date with 'origin/playground'.
+git checkout hands-on
+# Already on 'hands-on'
+# Your branch is up to date with 'origin/hands-on'.
 ```
 
 - SOURCE CONTROL > Remote > Add Remote
@@ -144,8 +144,8 @@ hugo server
 pwd
 # `/workspaces/susc-github-actions-2025/srcs`에 있는지 확인
 git status
-# On branch playground
-# Your branch is up to date with 'origin/playground'.
+# On branch hands-on
+# Your branch is up to date with 'origin/hands-on'.
 # 
 # Changes to be committed:
 #   (use "git restore --staged <file>..." to unstage)
@@ -176,8 +176,8 @@ git rm -rf srcs
 # rm 'srcs/themes/ananke'
 rm -rf srcs
 git status
-# On branch playground
-# Your branch is up to date with 'origin/playground'.
+# On branch hands-on
+# Your branch is up to date with 'origin/hands-on'.
 # 
 # Changes to be committed:
 #   (use "git restore --staged <file>..." to unstage)
