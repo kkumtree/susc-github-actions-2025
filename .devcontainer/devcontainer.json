@@ -1,5 +1,5 @@
 {
-  "name": "ddd-seoul-2024",
+  "name": "susc-github-actions-2025",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
   "hostRequirements": {
     "cpus": 2
