@@ -1,0 +1,44 @@
+{
+  "name": "ddd-seoul-2024",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "version": "latest",
+      "extended": "true"
+    }
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "",
+  "postCreateCommand": "",
+  "postAttachCommand": {
+    "versionChecker": "hugo version"
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ],
+      "repositories": {
+        "<USERNAME>/<USERNAME>.github.io": {
+          "permissions": "write-all"
+        }
+      }
+    },
+    "vscode": {
+      "extensions": [
+        "DavidAnson.vscode-markdownlint",
+        "mhutchie.git-graph"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "1313": {
+      "label": "TestInLocal",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [1313]
+}
