@@ -1,5 +1,16 @@
 # 튜토리얼
 
+## 개요
+
+- devcontainer.json 편집 방법
+- 린터 설치 (markdownlint)
+- Git 원격 저장소 추가
+- Hugo 사이트 부트스트래핑
+- 테마를 서브모듈로 가져오기
+- 설정 파일 편집
+- Hello World 포스트 생성
+- GitHub Pages에 게시하는 방법
+
 ## devcontainer.json 편집
 
 - 브랜치: hands-on
