@@ -1,28 +1,35 @@
 # GitHub Actions으로 나만의 블로그 만들기    
 
-## 강의 진행자  
+## 가이드  
 
-- 조민성
-  - Ubuntu Member / Apache Airflow 한국 사용자 모임  
+- 목적: 모든 사용자가 동일한 환경을 만들 수 있도록 돕기  
 
-## 강의 목표  
+## 사전 요구사항  
 
-- 기억을 대신 저장해줄 나만의 개발 블로그를 만들어 봅니다.
-- 포스팅의 형태로 지식을 공유하기 위해, GitHub와 프레임워크 등을 통해서 
-웹에 배포하는 방법을 학습하고 실습합니다. 
-- Git과 Markdown문법을 통해, 빠르게 정리해서 게시글로 작성하는 방법을 학습하고 실습합니다. 
+- [코드스페이스에서 설정 동기화 끄기](https://docs.github.com/en/codespaces/setting-your-user-preferences/personalizing-github-codespaces-for-your-account#turning-off-settings-sync-in-a-codespace)  
+  - 링크: <https://github.com/settings/codespaces>  
+  - 경로: Settings Sync > `체크 해제` Enable  
+    ![체크 해제](https://github.com/user-attachments/assets/934485f4-724e-462f-b36e-759605dc46b7)  
+- [기본 에디터 설정하기](https://docs.github.com/en/codespaces/setting-your-user-preferences/setting-your-default-editor-for-github-codespaces#setting-your-default-editor)  
+  - 링크: <https://github.com/settings/codespaces>  
+  - 경로: Editor preference > `체크` Visual Studio Code for Web  
+    ![VSCode for Web 체크](https://github.com/user-attachments/assets/514c7e4b-4fdd-463c-a20e-fe68d8da15bc)  
+- 감사합니다!  
 
-## 강의 준비사항  
+## 선호하는 타임아웃 설정 (선택사항)  
 
-- 자판이 있는 노트북/컴퓨터  
-- GitHub 계정  
+> 휴식 시간 후 중단 상황을 피하기 위함  
 
-## 강의 진행 방법  
+- [기본 타임아웃 기간 설정하기](https://docs.github.com/en/codespaces/setting-your-user-preferences/setting-your-timeout-period-for-github-codespaces#setting-your-default-timeout-period)  
 
-- 함께, 차근차근
+## 부록  
 
-## 강의 계획(7월 26일 토요일 14시~17시 / 3시간)
+> `GitHub Codespaces`에 관심이 있는 분들을 위한 심화 내용  
 
-- Github Workspace와 함께 Hugo 맛보기
-- GitHub Actions를 통해, Github Pages 기반 내 블로그 배포하기
-- giscus를 통해, 나의 블로그에 댓글 기능 추가하기
+- [코드스페이스 자동 삭제 구성하기](https://docs.github.com/en/codespaces/setting-your-user-preferences/configuring-automatic-deletion-of-your-codespaces)  
+  - 지갑을 위한 더 엄격한 절약을 위해서입니다. :)  
+
+- [기본 지역 설정하기](https://docs.github.com/en/codespaces/setting-your-user-preferences/setting-your-default-region-for-github-codespaces#setting-your-default-region)  
+  - 기본적으로 사용자의 IP 주소를 기반으로 자동 할당이 활성화됩니다.  
+  - 엄격한 보안 및 규정 준수 요구사항을 충족하기 위함입니다.
+
