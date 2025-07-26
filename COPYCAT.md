@@ -86,7 +86,7 @@ git checkout -b ephemeral blog/main
 git add .
 git status
 git commit -m "update: pre-build resources"
-git push blog ephemeral: main
+git push blog ephemeral:main
 ```
 
 ## GitHub Actions
